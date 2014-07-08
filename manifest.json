@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "ForumLibero",
+  "description": "Estensione che permette di ignorare specifici utenti sul forum di Spazio Asperger",
+  "version": "1.1",
+  "icons": { 
+	"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "browser_action": {
+    "name": "ForumLibero",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [{
+    "js": ["libera.js"],
+    "matches": ["http://www.spazioasperger.it/forum/*", "http://spazioasperger.it/forum/*"],
+    "run_at": "document_start"
+  }],
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
+  "web_accessible_resources": ["hide-last.css"]
+}
+  
