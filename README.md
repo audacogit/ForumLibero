@@ -14,7 +14,7 @@ https://chrome.google.com/webstore/detail/forumlibero/hmgejfbhjgocamciamofeknkaj
 
 Se volete compilare e testare l'estensione tramite codice basta che:
 
-1) tutti i files siano in una cartella ForumLibero (dovreste trovarvela facendo il clone del progetto) ed importarlo nell'applicazione
+1) tutti i files siano in una cartella ForumLibero (dovreste trovarvela facendo il clone del progetto)
 
 2) Installetevi il Chrome Dev Editor: https://chrome.google.com/webstore/detail/chrome-dev-editor-develop/pnoffddplpippgcfjdhbmhkofpnaalpg
 
